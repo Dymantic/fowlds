@@ -1,0 +1,96 @@
+@tailwind preflight;
+
+@import "type_rules";
+@import "pages/home.less";
+
+@tailwind utilities;
+
+.navbar.scrolled {
+  @apply .bg-white .shadow;
+}
+
+body.home {
+  padding-top: 0;
+}
+
+.article-content {
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 1rem auto;
+  }
+
+  p {
+    margin: 1rem 0;
+  }
+
+  strong {
+    @apply .font-bold .font-serif;
+  }
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.column-2 {
+  column-count: 2;
+  column-gap: 2rem;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 15px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeUpSmall {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 5px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeUpOnLoad {
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-duration: 0.75s;
+  animation-timing-function: ease-in-out;
+  animation-name: fadeUp;
+}
+
+.fadeUpAfterLoad {
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-duration: 0.75s;
+  animation-timing-function: ease-in-out;
+  animation-name: fadeUp;
+  animation-delay: 0.3s;
+}
+
+.usher-out {
+  visibility: hidden;
+}
+
+.usher-in {
+  visibility: visible;
+}
+
+[data-usher] {
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-duration: 0.75s;
+  animation-timing-function: ease-in-out;
+  animation-name: none;
+}

@@ -1,0 +1,33 @@
+.hero-banner {
+  background-image: url("/assets/images/rhino_banner.jpg");
+  min-height: 85vh;
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: 100%;
+
+  .logo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.drop-quoted {
+  position: relative;
+}
+
+.drop-quoted:before {
+  content: "\201c";
+  position: absolute;
+  left: -3rem;
+  font-size: 150%;
+}
+
+.drop-quoted:after {
+  content: "\201d";
+  position: absolute;
+  right: -2rem;
+  bottom: -1rem;
+  font-size: 150%;
+}
