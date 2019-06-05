@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<section class="py-28">
+<section class="pt-28">
     <h1 class="h1 text-center mb-12 fadeUpAfterLoad">My Work.</h1>
     <p class="max-w-md mx-auto text-center">My work can be divided into three categories: conservation, consulting and speaking. If you're interested in working on a project together please feel free to get in touch.</p>
 </section>

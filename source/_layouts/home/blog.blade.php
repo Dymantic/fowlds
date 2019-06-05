@@ -5,13 +5,16 @@
         @foreach($posts->where('published', true)->take(5) as $post)
         <div class="flex justfiy-between my-4">
             <a href="{{ $post->getPath() }}">
-                <img src="/assets/images/post-title/{{ $post->title_image }}" alt="{{ $post->title }}" class="h-32"></a>
+                <img src="/assets/images/post-title/{{ $post->title_image }}" alt="{{ $post->title }}" class="h-20"></a>
             <div class="flex-1 relative p-4 bg-ivory">
-                <p class="h3">{{ $post->title }}</p>
-                <div class="h-1 w-48 bg-orange"></div>
+                <p class="h3"><a href="{{ $post->getPath() }}" class="no-underline text-black">{{ $post->title }}</a></p>
+                <div class="h-1 w-32 bg-orange"></div>
                 <a href="{{ $post->getPath() }}" class="no-underline text-orange btn-type-2 absolute pin-r pin-b mb-4 mr-4">Continue Reading</a>
             </div>
         </div>
         @endforeach
+    </div>
+    <div class="flex flex-col items-center">
+        <a class="text-orange no-underline btn-type-1 mb-4" href="/journal">Go to Journal</a>
     </div>
 </section>

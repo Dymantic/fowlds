@@ -8,9 +8,9 @@ use Zttp\Zttp;
 class FetchInstagrams
 {
     public function handle(Jigsaw $jigsaw) {
-        if($jigsaw->getEnvironment() !== "production") {
-            return $jigsaw->setConfig('instagrams', $this->getCachedResults());
-        }
+        // if($jigsaw->getEnvironment() !== "production") {
+        //     return $jigsaw->setConfig('instagrams', $this->getCachedResults());
+        // }
 
         try {
             $images = $this->fetchImages();
@@ -32,15 +32,20 @@ class FetchInstagrams
     }
 
     private function fetchImages() {
-        $response = Zttp::get('https://api.instagram.com/v1/users/self/media/recent/?   access_token=3470499854.7769b6a.52889813b921401e98c6bd9e15b4aeea');
+        $response = Zttp::get('https://api.instagram.com/v1/users/self/media/recent/?access_token=4373093543.7769b6a.9385a64cea60495d992826cc12034776');
 
         if($response->status() !== 200) {
             throw new \Exception("unable to fetch images");
         }
 
         $media = $response->json()['data'];
-        return array_map(function($media) {
-            return $media['images']['standard_resolution']['url'];
+
+        $media = array_filter($media, function($image) {
+            return $image['type'] !== 'video';
+        });
+
+        return  array_map(function($image) {
+            return $image['images']['standard_resolution']['url'];
         }, $media);
 
     }

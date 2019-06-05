@@ -50,6 +50,7 @@ let colors = {
   red: "#ef4023",
   black: "#2d2c2d",
   grey: "#5e5d5e",
+  "grey-light": "#aab0bc",
 
   white: "#ffffff",
 
@@ -511,6 +512,7 @@ module.exports = {
     "10": "2.5rem",
     "12": "3rem",
     "16": "4rem",
+    "20": "5rem",
     "24": "6rem",
     "28": "7rem",
     "32": "8rem",
