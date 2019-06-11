@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<section class="py-28 px-4">
+<section class="py-28 px-8">
     <h1 class="h1 text-center max-w-md mx-auto mb-12 fadeUpAfterLoad">Saving the Last Rhinos - The Life of a Frontline Conservationist</h1>
     <p class="h2 text-center">by</p>
     <p class="h2 text-center">Grant Fowlds and Graham Spence</p>

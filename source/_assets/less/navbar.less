@@ -1,0 +1,37 @@
+@media screen and (max-width: 800px) {
+  .main-nav {
+  }
+
+  .main-nav .nav-drawer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 4rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    transform: translate3d(-100%, 0, 0);
+    transition: 0.3s ease-in-out;
+
+    padding-top: 4rem;
+  }
+
+  .main-nav .nav-drawer a {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .main-nav.expose {
+    background: white;
+  }
+
+  .main-nav.expose .nav-drawer {
+    transform: translate3d(0, 0, 0);
+  }
+
+  .main-nav .menu-trigger {
+    display: block;
+  }
+}

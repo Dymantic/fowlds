@@ -12,4 +12,18 @@ window.addEventListener(
   }, 100)
 );
 
-window.addEventListener("load", () => new Usher());
+window.addEventListener("load", () => {
+  new Usher();
+
+  const trigger = document.querySelector(".menu-trigger button");
+
+  trigger.addEventListener("click", () => {
+    const nav = document.querySelector(".main-nav");
+    console.log("clicked");
+    if (nav.classList.contains("expose")) {
+      console.log("inner");
+      return nav.classList.remove("expose");
+    }
+    nav.classList.add("expose");
+  });
+});

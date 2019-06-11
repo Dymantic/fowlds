@@ -23,7 +23,7 @@
     </div>
     <div class="my-20">
         {{-- <p class="h2 text-orange">Quick Links</p> --}}
-        <div class="flex flex-row justify-center items-center">
+        <div class="flex flex-col md:flex-row justify-center items-center">
             <a class="mx-8 text-grey-light hover:text-orange no-underline" href="/">Home</a>
             <a class="mx-8 text-grey-light hover:text-orange no-underline" href="/book">Book</a>
             <a class="mx-8 text-grey-light hover:text-orange no-underline" href="/work">Work</a>
@@ -32,6 +32,6 @@
             <a class="mx-8 text-grey-light hover:text-orange no-underline" href="/contact">Contact</a>
         </div>
     </div>
-    <p class="text-white mt-8 text-center">&copy; {{ date('Y') }} Beautifully built by <a href="https://dymanticdesign.com" target="_blank" class="no-underline text-white hover:text-teal">Dymantic Design</a></p>
+    <p class="text-sm md:text-normal text-white mt-8 text-center">&copy; {{ date('Y') }} Beautifully built by <a href="https://dymanticdesign.com" target="_blank" class="no-underline text-white hover:text-teal">Dymantic Design</a></p>
 </div>
 </footer>

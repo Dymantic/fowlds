@@ -1,6 +1,7 @@
 @tailwind preflight;
 
 @import "type_rules";
+@import "navbar";
 @import "pages/home.less";
 
 @tailwind utilities;
@@ -33,11 +34,19 @@ body.home {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
+
+  @media screen and (max-width: 576px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .column-2 {
   column-count: 2;
   column-gap: 2rem;
+
+  @media screen and (max-width: 576px) {
+    column-count: 1;
+  }
 }
 
 @keyframes fadeUp {

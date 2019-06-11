@@ -680,7 +680,19 @@ window.addEventListener("scroll", lodash_throttle__WEBPACK_IMPORTED_MODULE_0___d
   return navbar.classList.remove("scrolled");
 }, 100));
 window.addEventListener("load", function () {
-  return new _lib_Usher__WEBPACK_IMPORTED_MODULE_1__["default"]();
+  new _lib_Usher__WEBPACK_IMPORTED_MODULE_1__["default"]();
+  var trigger = document.querySelector(".menu-trigger button");
+  trigger.addEventListener("click", function () {
+    var nav = document.querySelector(".main-nav");
+    console.log("clicked");
+
+    if (nav.classList.contains("expose")) {
+      console.log("inner");
+      return nav.classList.remove("expose");
+    }
+
+    nav.classList.add("expose");
+  });
 });
 
 /***/ }),

@@ -8,6 +8,6 @@
         <p class="px-4 text-base">{{ $post->description }}</p>
     </div>
     <div class="text-right">
-        <a class="text-base text-orange no-underline" href="{{ $post->getPath() }}">Continue Reading</a>
+        <a class="text-base text-orange hover:text-teal no-underline" href="{{ $post->getPath() }}">Continue Reading</a>
     </div>
 </div>    
