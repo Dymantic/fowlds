@@ -587,6 +587,12 @@ table {
   background-position-x: 100%;
 }
 
+@media screen and (max-width: 576px) {
+  .hero-banner {
+    background-position-x: 10%;
+  }
+}
+
 .hero-banner .logo {
   position: absolute;
   top: 30%;
@@ -606,6 +612,12 @@ table {
           animation-fill-mode: both;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
+}
+
+@media screen and (max-width: 576px) {
+  .hero-banner .logo {
+    top: 20%;
+  }
 }
 
 .drop-quoted {

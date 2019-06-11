@@ -1,5 +1,16 @@
 @extends('_layouts.master')
 
+@section('title')
+    My Book, Saving the Last Rhinos | Grant Fowlds
+@endsection
+
+@section('head')
+    @include('_layouts.partials.ogmeta', [
+        'ogTitle' => 'Saving the Last Rhinos | Grant Fowlds',
+        'odDescription' => 'Take a ride through my life and adventures trying to save our wildlife.'
+    ])
+@endsection
+
 @section('body')
 <section class="py-28 px-8">
     <h1 class="h1 text-center max-w-md mx-auto mb-12 fadeUpAfterLoad">Saving the Last Rhinos - The Life of a Frontline Conservationist</h1>

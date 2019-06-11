@@ -1,5 +1,12 @@
 @extends('_layouts.master', ['bodyClasses' => 'home'])
 
+@section('head')
+    @include('_layouts.partials.ogmeta', [
+        'ogTitle' => 'Grant Fowlds | Wildlife Conservationist',
+        'odDescription' => 'Hi, I am Grant Fowlds, conservationist, speaker and consultant. I have a great passion for wildlife conservation and tourism, and extensive experience in spreading awareness and in wildlife restoration and conservation projects.'
+    ])
+@endsection
+
 @section('body')
 @include('_layouts.home.banner')
 @include('_layouts.home.quote')

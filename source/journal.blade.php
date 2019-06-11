@@ -1,5 +1,16 @@
 @extends('_layouts.master')
 
+@section('title')
+    Journal | Grant Fowlds
+@endsection
+
+@section('head')
+    @include('_layouts.partials.ogmeta', [
+        'ogTitle' => 'Journal | Grant Fowlds',
+        'odDescription' => 'Read through some of my latest adventures, experiences or opinions on my life as a wildlife conservationist, speaker and consultant.'
+    ])
+@endsection
+
 @section('body')
 <section class="py-28 px-8">
     <h1 class="h1 text-center mb-12 fadeUpAfterLoad">Journal.</h1>

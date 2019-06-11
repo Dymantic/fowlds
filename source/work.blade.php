@@ -1,5 +1,16 @@
 @extends('_layouts.master')
 
+@section('title')
+    My Work | Grant Fowlds
+@endsection
+
+@section('head')
+    @include('_layouts.partials.ogmeta', [
+        'ogTitle' => 'My Work | Grant Fowlds',
+        'odDescription' => 'My work to conserve our wildlife involves conservation, consulation, public speaking and spreading awareness through various projects. Read about it here.'
+    ])
+@endsection
+
 @section('body')
 <section class="pt-28 px-8">
     <h1 class="h1 text-center mb-12 fadeUpAfterLoad">My Work.</h1>

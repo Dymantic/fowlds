@@ -1,5 +1,16 @@
 @extends('_layouts.master')
 
+@section('title')
+    Contact Me | Grant Fowlds
+@endsection
+
+@section('head')
+    @include('_layouts.partials.ogmeta', [
+        'ogTitle' => 'Contact Me | Grant Fowlds',
+        'odDescription' => 'I would love to work with you! Please feel free to get in touch with me. Bookings should be made well in advance.'
+    ])
+@endsection
+
 @section('body')
 <section class="py-28">
     <h1 class="h1 text-center mb-12 fadeUpAfterLoad">Contact Me.</h1>

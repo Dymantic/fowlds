@@ -1,5 +1,16 @@
 @extends('_layouts.master')
 
+@section('title')
+    {{ $page->title }} | Grant Fowlds
+@endsection
+
+@section('head')
+    @include('_layouts.partials.ogmeta', [
+        'ogTitle' => $page->title,
+        'odDescription' => $page->description
+    ])
+@endsection
+
 @section('body')
 <div class="max-w-lg mx-auto pt-20 px-8">
     <p class="text-orange text-center mb-4">{{ date('jS F Y', $page->date) }}</p>

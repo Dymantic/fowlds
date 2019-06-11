@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Grant Fowlds</title>
+  <title>
+    @yield('title', 'Grant Fowlds | Wildlife Conservationist')
+  </title>
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,6 +15,8 @@
   <link rel="stylesheet" href="https://use.typekit.net/hsj1qit.css">
 
   <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+
+  @yield('head')
 </head>
 
 <body class="body-type text-black leading-normal pt-20 {{ $bodyClasses ?? '' }}">
