@@ -590,6 +590,7 @@ table {
 @media screen and (max-width: 576px) {
   .hero-banner {
     background-position-x: 10%;
+    background-image: url("/assets/images/rhino_banner_sm.jpg");
   }
 }
 
