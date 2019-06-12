@@ -1,5 +1,6 @@
 import throttle from "lodash.throttle";
 import Usher from "./lib/Usher";
+import jump from "jump.js";
 
 window.addEventListener(
   "scroll",
@@ -25,5 +26,10 @@ window.addEventListener("load", () => {
       return nav.classList.remove("expose");
     }
     nav.classList.add("expose");
+  });
+
+  const top_button = document.querySelector(".back-to-top");
+  top_button.addEventListener("click", () => {
+    jump("body");
   });
 });

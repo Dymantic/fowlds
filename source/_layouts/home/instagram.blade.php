@@ -11,4 +11,7 @@
             
         @endforeach
     </div>
+    <div class="flex flex-col items-center mt-12">
+        <a class="text-orange hover:text-teal no-underline btn-type-1 mb-4" href="https://www.instagram.com/grantfowlds/">Follow me</a>
+    </div>
 </section>

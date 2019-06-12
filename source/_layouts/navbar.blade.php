@@ -1,6 +1,6 @@
 <div class="main-nav flex justify-between items-center py-2 px-8 fixed w-full navbar pin-t">
     <div class="">
-        <a href="/">
+        <a href="/" class="text-black hover:text-teal no-underline">
             @include('_layouts.svgs.logos.nav-logo')
         </a>
     </div>

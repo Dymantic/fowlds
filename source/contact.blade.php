@@ -24,19 +24,19 @@
         <p class="h1 text-center mb-12 fadeUpAfterLoad">Social.</p>
         <p class="max-w-md mx-auto text-center">Follow my adventures on social media.</p>
         <div class="flex justify-center items-center my-4">
-            <a href="https://twitter.com/GrantFowlds1" class="no-underline hover:text-black text-orange mx-4">
+            <a href="https://twitter.com/GrantFowlds1" class="no-underline hover:text-teal text-orange mx-4">
                 @include('_layouts.svgs.social.twitter')
             </a>
-            <a href="https://www.linkedin.com/in/grant-fowlds-01671233/detail/recent-activity/posts/" class="no-underline hover:text-black text-orange mx-4">
+            <a href="https://www.linkedin.com/in/grant-fowlds-01671233/detail/recent-activity/posts/" class="no-underline hover:text-teal text-orange mx-4">
                 @include('_layouts.svgs.social.linkedin')
             </a>
-            <a href="https://www.facebook.com/grant.fowlds" class="no-underline hover:text-black text-orange mx-4">
+            <a href="https://www.facebook.com/grant.fowlds" class="no-underline hover:text-teal text-orange mx-4">
                 @include('_layouts.svgs.social.facebook')
             </a>
-            <a href="https://www.instagram.com/grantfowlds/" class="no-underline hover:text-black text-orange mx-4">
+            <a href="https://www.instagram.com/grantfowlds/" class="no-underline hover:text-teal text-orange mx-4">
                 @include('_layouts.svgs.social.instagram')
             </a>
-            <a href="https://www.youtube.com/channel/UCWD9yfXwYd7i_newBU8B0uA" class="no-underline hover:text-black text-orange mx-4">
+            <a href="https://www.youtube.com/channel/UCWD9yfXwYd7i_newBU8B0uA" class="no-underline hover:text-teal text-orange mx-4">
                 @include('_layouts.svgs.social.youtube')
             </a>
         </div>
