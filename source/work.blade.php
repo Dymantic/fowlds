@@ -47,6 +47,11 @@ responsible tourism and an avid supporter of a green and sustainable model.</p>
     <li>SAACI- South African Conference Industry</li>
     <li>Kashmir World Foundation, Washington DC</li>
     <li>University of Richmond, USA</li>
+    <li>Rotary New South Wales, Australia</li>
+    <li>Rotary Christchurch, New Zealand</li>
+    <li>Cavalry and Guards, Piccadilly London</li>
+    <li>Eton College, Windsor</li>
+    <li>Sky News, United Kingdom</li>
 
     <li>Harvard University, Boston Mashachutes</li>
     <li>Madiba’s Brooklyn, New York</li>
