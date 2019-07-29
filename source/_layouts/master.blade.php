@@ -9,9 +9,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+
   <link rel="stylesheet" href="https://use.typekit.net/hsj1qit.css">
 
   <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
