@@ -45,7 +45,7 @@ class FetchInstagrams
         $media = $response->json()['data'];
 
         $media = array_filter($media, function($image) {
-            return $image['type'] === 'IMAGE';
+            return $image['media_type'] === 'IMAGE';
         });
 
         return  array_map(function($image) {
