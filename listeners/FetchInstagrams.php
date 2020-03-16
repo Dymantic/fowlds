@@ -33,7 +33,10 @@ class FetchInstagrams
 
     private function fetchImages() {
         $token = getenv('INSTAGRAM_TOKEN');
-        $response = Zttp::get("https://api.instagram.com/v1/users/self/media/recent/?access_token={$token}");
+        $url_format = "https://graph.instagram.com/me/media?fields=%s&limit=%s&access_token=%s";
+        $media_fields = "caption,id,media_type,media_url,thumbnail_url,children.media_type,children.media_url";
+        $url = sprintf($url_format, $media_fields, 20, $token);    
+        $response = Zttp::get($url);
 
         if($response->status() !== 200) {
             throw new \Exception("unable to fetch images");
@@ -42,11 +45,11 @@ class FetchInstagrams
         $media = $response->json()['data'];
 
         $media = array_filter($media, function($image) {
-            return $image['type'] !== 'video';
+            return $image['type'] === 'IMAGE';
         });
 
         return  array_map(function($image) {
-            return $image['images']['standard_resolution']['url'];
+            return $image['media_url'];
         }, $media);
 
     }
