@@ -34,7 +34,7 @@ class FetchInstagrams
     private function fetchImages() {
         $token = getenv('INSTAGRAM_TOKEN');
         $url_format = "https://graph.instagram.com/me/media?fields=%s&limit=%s&access_token=%s";
-        $media_fields = "caption,id,media_type,media_url,thumbnail_url,children.media_type,children.media_url";
+        $media_fields = "caption,id,media_type,media_url,thumbnail_url,permalink,children{media_type,media_url},timestamp";
         $url = sprintf($url_format, $media_fields, 20, $token);    
         $response = Zttp::get($url);
 
