@@ -9,7 +9,7 @@
         <a class="h3 uppercase ml-8 no-underline text-grey hover:text-black" href="/associates">Associates</a>
         <a class="h3 uppercase ml-8 no-underline text-grey hover:text-black" href="/journal">Journal</a>
         <a class="h3 uppercase ml-8 no-underline text-grey hover:text-black" href="/contact">Contact</a>
-        <a class="h3 uppercase ml-8 no-underline text-grey hover:text-black" href="/book">Book</a>
+        <a class="h3 uppercase ml-8 no-underline text-grey hover:text-black" href="/book">Books</a>
     </div>
     <div class="hidden menu-trigger">
         <button type="button" class="outline-none focus:outline-none">
