@@ -1,7 +1,7 @@
 <div class="bg-ivory p-2 flex flex-col justify-between" data-usher>
     <div>
         <a href="{{ $post->getPath() }}">
-            <img src="/assets/images/post-title/{{ $post->title_image }}" alt="{{ $post->title }}">
+            <img src="/assets/images/post-title/{{ $post->title_image }}" alt="{{ $post->title }}" class="w-full h-48 object-cover">
         </a>
         <p class="h3 my-4">{{ $post->title }}</p>
         <div class="w-24 h-1 bg-orange mb-4"></div>
