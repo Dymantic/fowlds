@@ -21,8 +21,8 @@
     <img src="/assets/images/home/book_rewilding.jpg" alt="Book cover for Rewilding Africa by Grant Fowlds and Graham Spence" class="block my-20 mx-auto w-full max-w-lg">
 
     <p class="my-12 max-w-md mx-auto">This the second book by Grant and Graham Spence, who have once again made a great team in lucidly revealing the endeavours of Grant.</p>
-    <p class="h1 mt-20 mb-12 text-center">Available Soon</p>
-    <p class="max-w-md mx-auto text-center">Coming out 5th May 2022 at all Major book stores World Wide.</p>
+    <p class="h1 mt-20 mb-12 text-center">Available Now</p>
+    <p class="max-w-md mx-auto text-center">Look for this book in all reputable book shops and online book sellers.</p>
 </section>
 <div class="max-w-lg mx-auto border-b border-black"></div>
 <section class="py-28 px-8">
