@@ -33,11 +33,30 @@ responsible tourism and an avid supporter of a green and sustainable model.</p>
 </div>
 <div class="max-w-lg mx-auto px-8 my-20">
     <h3 class="h2 mb-8">Speaking.</h3>
-    <p>My love and passion for the wild and responsible tourism has resulted in an opportunity to consult in
+    <p class="">My love and passion for the wild and responsible tourism has resulted in an opportunity to consult in
 tourism. This coupled with game introduction, reserve environmental planning has seen my career
 take me to parts of west, southern and central africa. I have been a consultant in marketing
 responsible tourism and an avid supporter of a green and sustainable model.</p>
-<p class="my-4">I have given presentations in locations far and wide, both in South Africa and abroad, including:</p>
+    <div class="my-4">
+        <strong>Podcasts I have been interviewed on by fantastic people, very much worth a listen!
+        </strong>
+
+        <div>
+            <p class="my-2"><a class="text-orange no-underline hover:underline" target="_blank" href="https://podcasts.apple.com/tw/podcast/the-buck-that-buries-its-poo-by-quinton-coetzee/id1592300628?i=1000623639581&l=en-GB">The Buck that Buries its Poo with Quinton Coetzee</a>
+            </p>
+
+            <p class="my-2"><a class="text-orange no-underline hover:underline" href="https://podcasts.apple.com/tw/podcast/grant-fowlds-on-rhinos-rewilding-africa-and-the/id1589928171?i=1000575798387&l=en-GB" target="_blank">Grant Fowlds on Rhinos, Rewinding Africa, and the Front Lines of the Poaching Wars
+                </a></p>
+
+            <p class="my-2"><a class="text-orange no-underline hover:underline" href="https://soundcloud.com/rhino-man-podcast/ep-21-grant-fowlds-project-rhino-saving-the-last-rhinos-and-rewilding-africa?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">Grant Fowlds - Project Rhino, Saving the Last Rhinos, and Rewilding Africa</a> with
+                <a class="text-orange no-underline hover:underline" href="https://on.soundcloud.com/Adsm9" target="_blank">The Rhino Man Podcast</a>
+            </p>
+
+            <p class="my-2"><a class="text-orange no-underline hover:underline" href="https://podcasts.apple.com/tw/podcast/grant-fowlds-on-saving-the-last-rhinos-and/id1519366217?i=1000500785038&l=en-GB" target="_blank">Grant Fowlds on Saving the Last Rhinos, and the Wilderness of Zululand with Terra Stories: News from the Field Podcast
+                </a></p>
+        </div>
+    </div>
+<p class="my-4 font-bold">I have given presentations in locations far and wide, both in South Africa and abroad, including:</p>
 <ul class="list-reset column-2 text-base">
     <li>University of Hanoi, Vietnam</li>
     <li>Biodiversity Agency, Hanoi, Vietnam</li>
