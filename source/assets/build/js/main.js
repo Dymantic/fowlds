@@ -901,8 +901,8 @@ window.addEventListener("load", function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/mooz/work/fowlds/source/_assets/js/main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! /Users/mooz/work/fowlds/source/_assets/less/main.less */"./source/_assets/less/main.less");
+__webpack_require__(/*! /Users/mooz/dymantic/fowlds/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /Users/mooz/dymantic/fowlds/source/_assets/less/main.less */"./source/_assets/less/main.less");
 
 
 /***/ })
